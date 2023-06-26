@@ -8,12 +8,12 @@ namespace Advanced_Converting_back__and_forth
 {
     internal class Conversion{
 
-        public void conversionCelsusToFahrenheit(double value1) {
+        public void ConversionCelsusToFahrenheit(double value1) {
             double result = (value1 * 1.8) + 32;
             Console.WriteLine("the conversion Celsus to Fahrenheit is= " + result);
         }
 
-        public void conversionFahrenheitToCelsus(double value2)
+        public void ConversionFahrenheitToCelsus(double value2)
         {
             double result = (value2 - 32) * 0.555;
             Console.WriteLine("the conversion Fahrenheit to Celsus is= " + result);
