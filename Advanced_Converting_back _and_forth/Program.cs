@@ -13,5 +13,5 @@ if ( choise == "C-F"){
 else if (choise == "F-C") {
     Console.Write("inserisci i gradi in Fahrenheit= ");
     double grade = double.Parse(Console.ReadLine());
-    conversion.conversionCelsusToFahrenheit(grade);
+    conversion.conversionFahrenheitToCelsus(grade);
 }
