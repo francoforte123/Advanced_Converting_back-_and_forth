@@ -8,10 +8,10 @@ String choise= Console.ReadLine();
 if ( choise == "C-F"){
     Console.Write("inserisci i gradi in Celsus= ");
     int grade= int.Parse(Console.ReadLine());
-    conversion.conversionCelsusToFahrenheit(grade);
+    conversion.ConversionCelsusToFahrenheit(grade);
 }
 else if (choise == "F-C") {
     Console.Write("inserisci i gradi in Fahrenheit= ");
     double grade = double.Parse(Console.ReadLine());
-    conversion.conversionFahrenheitToCelsus(grade);
+    conversion.ConversionFahrenheitToCelsus(grade);
 }
