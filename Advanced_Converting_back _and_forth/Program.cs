@@ -7,7 +7,7 @@ String choise= Console.ReadLine();
 
 if ( choise == "C-F"){
     Console.Write("inserisci i gradi in Celsus= ");
-    int grade= int.Parse(Console.ReadLine());
+    int grade= int.Parse(Console.ReadLine());            //quando vuole mettere un numero con la virgola mobile, deve usare la virgola (,), per rappresentare la parte decimale, perchè col punto non funziona
     conversion.ConversionCelsusToFahrenheit(grade);
 }
 else if (choise == "F-C") {
